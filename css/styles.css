@@ -48,7 +48,7 @@ nav {
 }
 
 nav div img {
-    height: 60px;
+    height: 70px;
 }
 
 .link a {
@@ -129,7 +129,7 @@ main {
     margin: 15px;
 }
 .services img{
-    width: 25vw;
+    width: 30vw;
     opacity: 0.7;
 }
 .content-over-img{
@@ -169,7 +169,7 @@ main {
     display: none;
     overflow: hidden;
 }
-.one-box-review{
+.one-box-content{
     display: flex;
     flex-direction: row;
 }
@@ -264,7 +264,34 @@ main {
         opacity: 1
     }
 }
-
+.contect{
+    position: relative;
+    bottom: 13vw;
+}
+.contect-heading{
+    text-align: center;
+}
+.contect p{
+    font-size: 2rem;
+}
+.wayes img{
+    width: 33.33vw;   
+}
+.content-over-image{
+    position: absolute;
+    font-size: 1vw;
+    color: var(--footer-dark-color);
+    font-weight: bold;
+    text-align: center;
+}
+.content-over-image a{
+    text-decoration: none;
+    color: var(--footer-dark-color);
+    font-size: 3vw;
+}
+.content-over-image a:hover{
+    font-size: 3.2vw;
+}
 .data {
     width: 92vw;
     display: flex;
@@ -351,80 +378,4 @@ footer {
     padding: 20px;
     margin-bottom: 0px;
     bottom: 0px;
-}
-/*About page*/
-.data-3{
-    width: 90vw;
-    background-color: var(--data-bg);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.heading{
-    padding: 20px;
-    color: var(--main-text-color);
-    font-size: 30px;
-    font-weight: bold;
-    color: var(--link-color);
-}
-/*page tributes*/
-
-.tuple{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    background-color: var(--data-bg);
-
-    width: 80vw;
-    height: 40vh;
-    border-radius: 10px;
-    margin: 20px;
-    overflow: hidden;
-}
-.tuple img{
-    height: 30vh;
-    min-width: 40vh;
-    margin: 20px;
-}
-.data-2{
-    display: flex;
-    flex-direction: column;
-    color: var(--main-text-color);
-    margin: 20px;
-    text-align: justify;
-    font-size: 18px;
-}
-.data-2 p{
-    text-align: left;
-    font-weight:bolder;
-    margin: 10px;
-    font-size: 25px;
-}
-/*product page*/
-.product{
-    margin: 20px;
-    width: 90vw;
-    background-color: var(--data-bg);
-    border-radius: 10px;
-}
-.title{
-    color: var(--main-text-color);
-    font-size: 30px;
-    margin: 50px;
-}
-.product ul li{
-    list-style: none;
-    text-align: center;
-    margin: 20px;
-    font-size: 20px;
-}
-.product ul li a{
-    color: var(--link-color);
-    text-decoration: none;
-}
-.product ul li a:hover{
-    color: var(--slider-text-color);
-    font-size: 25px;
 }
