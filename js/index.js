@@ -1,3 +1,11 @@
+document.getElementsByClassName("creator")[0].addEventListener("mouseenter",function (){
+  document.getElementsByClassName("creator")[0].classList.toggle("trans");
+  document.getElementsByClassName("artical-over-img")[0].classList.toggle("show");
+});
+document.getElementsByClassName("creator")[0].addEventListener("mouseleave",function (){
+  document.getElementsByClassName("creator")[0].classList.toggle("trans");
+  document.getElementsByClassName("artical-over-img")[0].classList.toggle("show");
+});
 let slideIndex = 1;
 showSlides(slideIndex);
 
