@@ -1,11 +1,24 @@
+
 document.getElementsByClassName("creator")[0].addEventListener("mouseenter",function (){
   document.getElementsByClassName("creator")[0].classList.toggle("trans");
   document.getElementsByClassName("artical-over-img")[0].classList.toggle("show");
 });
+
 document.getElementsByClassName("creator")[0].addEventListener("mouseleave",function (){
   document.getElementsByClassName("creator")[0].classList.toggle("trans");
   document.getElementsByClassName("artical-over-img")[0].classList.toggle("show");
 });
+
+for (let i = 0; i < document.getElementsByClassName("js-logo").length; i++) {
+  document.getElementsByClassName("js-logo")[i].addEventListener("mouseenter",function (){
+    document.getElementsByClassName("js-logo")[i].classList.toggle("img-b");
+  });
+  document.getElementsByClassName("js-logo")[i].addEventListener("mouseleave",function (){
+    document.getElementsByClassName("js-logo")[i].classList.toggle("img-b");
+  });
+}
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
