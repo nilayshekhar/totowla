@@ -60,6 +60,7 @@ header {
 }
 .logo-text{
     display: none;
+    width: 60vw;
 }
 
 nav {
